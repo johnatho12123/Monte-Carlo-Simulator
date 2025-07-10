@@ -6,7 +6,7 @@ days_per_year = 365
 
 def gbm_sim(initial, mu, sigma, T_days):
     prices = [initial]
-    dt = 1  # Daily time step
+    dt = 1  
     for _ in range(T_days):
         S_t = prices[-1]
         z = random.gauss(0, 1)
