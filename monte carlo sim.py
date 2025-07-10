@@ -19,7 +19,7 @@ volatility = float(input("volatility (% per year): ")) / 100
 d_return = float(input("expected return (% per year): ")) / 100
 years = int(input("Time (Years): "))
 sims = int(input("Number of simulations: "))
-total_days = years * days_per_year
+total_days = years * days_per_year 
 
 # Simulations
 for _ in range(sims):
